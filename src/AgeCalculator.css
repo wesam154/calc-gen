@@ -1,0 +1,23 @@
+:root {
+  --purple-500: hsl(259, 100%, 65%);
+  --red-400: hsl(0, 100%, 67%);
+  --grey-100: hsl(0, 0%, 94%);
+  --grey-200: hsl(0, 0%, 86%);
+  --grey-500: hsl(0, 1%, 44%);
+}
+
+.input-group input.error {
+  border-color: var(--red-400);
+}
+.input-group label.error {
+  color: var(--red-400);
+}
+.error-msg {
+  color: var(--red-400);
+  font-style: italic;
+  font-size: 0.8rem;
+}
+.highlight {
+  color: var(--purple-500);
+  font-style: italic;
+}
